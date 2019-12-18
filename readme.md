@@ -28,7 +28,18 @@ If you utilize this framework, please cite our ICCV 2019 paper.
 
 - **Data**
 
-    Download the full [KITTI](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d) detection dataset. Then place a softlink (or the actual data) in  *M3D-RPN/data/kitti*. 
+	Download the full [KITTI](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d) detection dataset. 
+All data should be inside training and testing folder, for ex.
+    	
+	```
+	training/calib/,
+	training/image_2/,
+	testing/image_2/,
+	testing/calib/
+	and etc.
+	```
+	
+	Then place a softlink (or the actual data) in  *M3D-RPN/data/kitti*. 
 
 	```
     cd M3D-RPN
