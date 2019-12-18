@@ -97,6 +97,8 @@ python scripts/train_rpn_3d.py --config=kitti_3d_multi_main --restore=10000
 
 We provide models for the main experiments on val1 / val2 / test data splits available to download here [M3D-RPN-Release.zip](https://www.cse.msu.edu/computervision/M3D-RPN-Release.zip).
 
+Unzip the archive and put it inside *data* folder 
+
 Testing requires paths to the configuration file and model weights, exposed variables near the top *scripts/test_rpn_3d.py*. To test a configuration and model, simply update the variables and run the test file as below. 
 
 ```
